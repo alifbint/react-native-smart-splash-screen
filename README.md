@@ -111,6 +111,8 @@ protected List<ReactPackage> getPackages() {
 * in MainActivity.java
 ```
 ...
+//import android.widget.ImageView; // uncomment if opening fullscreen
+import android.os.Bundle; // required for onCreate parameter
 import com.reactnativecomponent.splashscreen.RCTSplashScreen;    //import RCTSplashScreen
 ...
 @Override
